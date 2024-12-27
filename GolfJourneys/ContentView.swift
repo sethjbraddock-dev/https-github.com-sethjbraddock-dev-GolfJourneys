@@ -1,21 +1,12 @@
-//
-//  ContentView.swift
-//  GolfJourneys
-//
-//  Created by Seth Braddock on 12/21/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = GoalsViewModel()
+    @StateObject private var userSettings = UserSettings()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        GoalsListView(viewModel: viewModel, userSettings: userSettings)
+            .preferredColorScheme(userSettings.isDarkMode ? .dark : .light)
     }
 }
 
