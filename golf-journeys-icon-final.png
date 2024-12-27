@@ -1,0 +1,40 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="512" height="512" rx="100" fill="#256142"/>
+    
+    <!-- Letters -->
+    <text x="120" y="200" 
+          font-family="Verdana, Arial" 
+          font-weight="900" 
+          font-size="130" 
+          fill="white">G</text>
+    
+    <text x="300" y="400" 
+          font-family="Verdana, Arial" 
+          font-weight="900" 
+          font-size="130" 
+          fill="white">J</text>
+    
+    <!-- Path -->
+    <path d="M100 400 Q150 300 250 250 T400 100" 
+          fill="none" 
+          stroke="white" 
+          stroke-width="30"
+          stroke-linecap="round"/>
+    
+    <!-- Golf Ball with dimples -->
+    <circle cx="400" cy="100" r="40" fill="white"/>
+    <circle cx="400" cy="100" r="8" fill="#256142" opacity="0.2"/>
+    <circle cx="385" cy="85" r="8" fill="#256142" opacity="0.2"/>
+    <circle cx="415" cy="85" r="8" fill="#256142" opacity="0.2"/>
+    <circle cx="385" cy="115" r="8" fill="#256142" opacity="0.2"/>
+    <circle cx="415" cy="115" r="8" fill="#256142" opacity="0.2"/>
+    <circle cx="400" cy="70" r="8" fill="#256142" opacity="0.2"/>
+    <circle cx="400" cy="130" r="8" fill="#256142" opacity="0.2"/>
+    <circle cx="430" cy="100" r="8" fill="#256142" opacity="0.2"/>
+    <circle cx="370" cy="100" r="8" fill="#256142" opacity="0.2"/>
+    
+    <!-- Milestone dots -->
+    <circle cx="250" cy="250" r="20" fill="white"/>
+    <circle cx="100" cy="400" r="20" fill="white"/>
+</svg>
